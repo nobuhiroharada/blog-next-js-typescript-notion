@@ -35,3 +35,10 @@ export type PageDataType = {
     cover: FileType | null
     properties: PropertyType
 }
+
+// export type BlockType = {
+//     type: string
+//     heading_1: { rich_text: RichTextType[] }
+//     heading_2: { rich_text: RichTextType[] }
+//     paragraph: { rich_text: RichTextType[] }
+// }

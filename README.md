@@ -4,6 +4,15 @@
 yarn dev
 ```
 
+## メモ
+
+レンダリング直前に return <></> とすると、そこで処理が終わるのでエラーにならず、コンソールに出力できる
+
+```
+console.log(page)
+return <></>
+```
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

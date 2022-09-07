@@ -10,7 +10,7 @@ import { fetchPages } from '../utils/notion'
 import { IndexPropsType } from '../types/IndexPropsType'
 
 export const getStaticProps: GetStaticProps = async () => {
-  const { results } = await fetchPages()
+  const { results } = await fetchPages({})
   return {
     props: {
       pages: results ? results : [],
